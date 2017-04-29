@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/header :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <head th:replace="common/header :: navbar">
+        <style type="text/css">
+        
+            .office-destinations {
+    
+                color: #ff4d4d;
+                margin-left: 10px;
+
+            }
+            
+            .first-p {
+                
+                margin-left: 10px;
+                margin-top: 15px;
+                font-size: 21px;
+            }
+            
+            hr {
+                
+                width: 60%;
+                margin-left: 0px;
+            }
+            
+            h3 {
+                
+                margin-left: 10px;
+                margin-top: 10px;
+                
+            }
+            
+            .p {
+                
+                margin-left: 10px;
+                font-size 21px;
+                
+            }
+        
+        </style>
+    
+    </head>
+<div class="container main">
+    <div class="row">
+        <div class="col-md-6">
+            
+             <h3>Offices</h3>
+           
+             <hr/>
+          
+             <p class="first-p"><strong>I am looking for offices in:</strong></p>
+            
+             <p class="office-destinations"><strong>North and South America</strong></p>
+            
+             <p class="office-destinations"><strong>Europe, Middle East and Africa</strong></p>
+            
+             <p class="office-destinations"><strong>Asia-Pacific</strong></p>
+             <br/><br/>
+            
+            <p class="p">To contact Customer Service about questions regarding orders or payments, please email </p>
+        </div>
+    </div>
+    <br/></div>
+
+<div th:replace="common/header :: body-bottom-scripts"/>
+
+</body>
+</html>
